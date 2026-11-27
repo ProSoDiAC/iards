@@ -28,7 +28,7 @@ the 404 page finds its CSS and links at any depth. Until replaced, the 404 page 
 - `kind: "deadline"` expires at 23:59 AoE (UTC-12) of that day; `kind: "event"` starts at 00:00 UTC.
 - `sample: true` shows a "[sample date]" label. Set it to `false` when the date is confirmed.
 - The same dates also appear as plain text in the HTML (no-JavaScript fallback): update the first deadline in the bar of every page and the rows in `dates/index.html`.
-  Quick check: `grep -rn "Mar 15, 2027" .`
+  Quick check: `grep -rn "Mar 7, 2027" .`
 
 ## Edit content
 Each page is a plain HTML file; the header, deadline bar and footer are repeated and must stay identical across the 7 files
